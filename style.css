@@ -32,11 +32,12 @@ section{
     margin-top: 20px;
     text-decoration: none;
     background-color: linear-gradient(45deg,lightSalmon,Tomato);
-    background-color: tomato;
+    background-color: orange;
     color: white;
     border-radius: 5px;
     padding:10px 20px;
     font-weight: 700;
+    animation: mymove 5s infinite;
 }
 .space{
     height: 150px;
@@ -75,3 +76,10 @@ section{
     border-image: linear-gradient(180deg,blue,skyblue);
     border-image-slice: 1;
 }
+
+
+  
+  @keyframes mymove {
+    from {background-color: lightcoral;}
+    to {background-color: blue;}
+  }
